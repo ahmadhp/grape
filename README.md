@@ -1,4 +1,10 @@
 
+# Environment 
+```
+node -v 
+v14.17.3
+```
+
 # Start Grape server nodes as
 ```
 grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002' 
@@ -12,7 +18,6 @@ grape --dp 20002 --aph 30002 --bn '127.0.0.1:20001'
 npm run client 6 buy tesla 1
 
 ```
-> grape@1.0.0 client /Users/i074889/code/grape
 > tsnd --respawn client.ts "6" "buy" "tesla" "1"
 
 [INFO] 18:02:34 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.7.4)
@@ -33,7 +38,6 @@ code: 'TESLA'
 npm run client 7 sell tesla 1
 
 ```
-> grape@1.0.0 client /Users/i074889/code/grape
 > tsnd --respawn client.ts "7" "sell" "tesla" "1"
 
 [INFO] 18:03:48 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.7.4)
@@ -64,7 +68,6 @@ buyer: '230c71cd-dda7-456a-9b26-423dcfb3218b'
 ```
 $ npm run client 6 buy tesla 1
 
-> grape@1.0.0 client /Users/i074889/code/grape
 > tsnd --respawn client.ts "6" "buy" "tesla" "1"
 
 [INFO] 18:02:34 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.7.4)
