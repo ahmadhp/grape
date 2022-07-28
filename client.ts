@@ -1,4 +1,4 @@
-import {ExchangeClient} from "./exchange"
+import {Exchange} from "./exchange"
 
 export var grapesNodes = [
     {
@@ -21,8 +21,9 @@ const [, , port, type, code, amount] = process.argv
 
 console.log("Command line arguments ", port, type, code, amount)
 
+// TODO, implement round robin to use all the servers.
 const grapeUrl = 'http://' + grapesNodes?.[0].bootstrap?.[0].split(':')[0] + ':' + grapesNodes?.[0].api_port
-const client = new ExchangeClient({grapeUrl, port})
+const client = new Exchange({grapeUrl, port})
 
 client.start((err) => {
 

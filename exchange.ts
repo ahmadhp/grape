@@ -7,7 +7,7 @@ import {v4 as uuidv4} from 'uuid';
 /**
  * Implements a Basic exchange to buy and sell stock.
  */
-export class ExchangeClient {
+export class Exchange {
     private broadcastKey = 'broadcast'
     private clientKey = 'client'
     private id: any;
