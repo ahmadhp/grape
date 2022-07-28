@@ -1,7 +1,11 @@
 
 # Start Grape server nodes as
+```
 grape --dp 20001 --aph 30001 --bn '127.0.0.1:20002' 
+```
+```
 grape --dp 20002 --aph 30002 --bn '127.0.0.1:20001' 
+```
 
 # Example Simulation Run
 ## First client
