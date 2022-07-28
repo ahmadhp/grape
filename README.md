@@ -14,6 +14,12 @@ grape --dp 20002 --aph 30002 --bn '127.0.0.1:20001'
 ```
 
 # Example Simulation Run
+
+## Install npm dependencies
+```
+npm install
+```
+
 ## First client
 npm run client 6 buy tesla 1
 
